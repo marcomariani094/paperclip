@@ -65,8 +65,7 @@ rescue LoadError
   require "mime/types"
 end
 
-require 'mimemagic'
-require 'mimemagic/overlay'
+require 'marcel'
 require 'logger'
 require 'cocaine'
 
